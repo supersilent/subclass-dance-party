@@ -1,3 +1,6 @@
+
+// PEPE DISAPPEARS ON MOUSE HOVER
+
 var MakePepeDancer = function(top, left, timeBetweenSteps) {
   MakeDancer.call(this, top, left, timeBetweenSteps);
   this.$node = $('<span class="dancer"><img src="images/pepe.gif" id="pepe"></img></span>');
@@ -10,7 +13,6 @@ MakePepeDancer.prototype.oldStep = MakeDancer.prototype.step;
 
 MakePepeDancer.prototype.step = function() {
   this.oldStep();
-  // this.$node.fadeToggle();
 };
 
 MakePepeDancer.prototype.lineUp = function() {
@@ -21,4 +23,3 @@ MakePepeDancer.prototype.lineUp = function() {
 };
 
 
-// PEPE disappears on mouse hover

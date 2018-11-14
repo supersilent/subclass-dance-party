@@ -11,7 +11,7 @@ body {
 }
 
 body, a:link, a:visited, a:active {
-  color: #ef831d;
+  color: #b19afd;
 }
 
 .title, .button {
@@ -19,14 +19,10 @@ body, a:link, a:visited, a:active {
   font-family: 'Permanent Marker';
 }
 
-.title {
-  color: cyan;
-}
-
 .button {
   text-decoration: none;
-  border: 1px solid #ef821e;
-  background-color: white;
+  border: 1px solid #b19afd;
+  background-color: #e2e2e2;
   border-radius: 5px;
   position: absolute;
   top: 4px;
@@ -37,34 +33,42 @@ body, a:link, a:visited, a:active {
 }
 
 #sharkButton {
-  left: 16%;
+  left: 13%;
 }
 
 #peterButton {
-  left: 62%;
+  right: 16%
 }
 
 #pikaButton {
-  left: 83%;
+  right: 1%;
 }
 
 #lineUpButton {
-  left: 50%;
+  top: 50px;
+  left: 55%;
+}
+
+#kickButton {
+  top: 50px;
+  left: 35%;
 }
 
 .button:hover {
   color: cyan;
   cursor: pointer;
-  background-color: #ef821e;
+  background-color: #b19afd;
 }
 
 .topbar {
   height:40px;
   background-color: #555;
+  position: relative;
 }
 
 .title {
   background-color: #555;
+  color: #5693fe;
   position: absolute;
   left: 40%;
   top: 3px;
@@ -96,6 +100,10 @@ body, a:link, a:visited, a:active {
 #peter {
   height: 200px;
   width: auto;
+}
+
+#peter:hover {
+  cursor: pointer;
 }
 
 #pika {
